@@ -10,13 +10,12 @@
 <body>
   <div class="page">
     <header class="header">
-      <div class="header__background"></div>
       <div class='logo logo_place_header'></div>
       <h1 class='header__title'>Научиться учиться</h1>
-      <h3 class='header__subtitle'>
+      <p class='header__subtitle'>
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
         <a class="header__link" href="#" target="blank">Узнать→</a>
-      </h3>
+      </p>
       <img class="header__main-illustration" src="./images/header-image.png" alt='Картина "Опять двойка"'>
       <div class='header__square-pic'></div>
     </header>
@@ -42,10 +41,8 @@
           </li>
           <li class="table__cell">
             <h4 class="table__heading">2.1 миллиарда</h4>
-            <div class="table__text">
-              <p class="table__paragraph">Число нуждающихся в повышении квалификации</p>
-              <p class="table__paragraph">Всемирный Банк, 2017</p>
-            </div>
+            <p class="table__text table__paragraph">Число нуждающихся в повышении квалификации</p>
+            <p class="table__text table__paragraph">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">1000 терабайт</h4>
@@ -57,10 +54,8 @@
           </li>
           <li class="table__cell">
             <h4 class="table__heading">420 миллионов</h4>
-            <div class="table__text">
-              <p class="table__paragraph">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
-              <p class="table__paragraph">Всемирный Банк, 2017</p>
-            </div>
+            <p class="table__text table__paragraph">Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства</p>
+            <p class="table__text table__paragraph">Всемирный Банк, 2017</p>
           </li>
           <li class="table__cell">
             <h4 class="table__heading">17–20 лет</h4>
@@ -78,7 +73,6 @@
       </section>
 
       <section class="feynman">
-        <div class="feynman__background"></div>
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <h3 class="feynman__subtitle">Выучить и не забыть</h3>
         <a class="feynman__link" href="#">Подробнее →</a>
@@ -86,7 +80,6 @@
       </section>
 
       <section class="kaufman">
-        <div class="kaufman__background"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <h3 class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</h3>
         <ul class="table table_theme_dark">
@@ -131,29 +124,43 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-        <img class="kaufman__triangle" src="./images/kaufman-triangle.svg" alt="треугольник">
+        <div class="kaufman__triangle"></div>
       </section>
     </main>
     <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__columns_content_copyright">
+        <div class="footer__column footer__columns_content_copyright">
           <div class="logo logo_place_footer"></div>
           <p class="footer__author">&copy;2022. Югай Богдан</p>
         </div>
-        <div class="footer__columns_content_info">
+        <div class="footer__column footer__columns_content_info">
           <h4 class="footer__column-heading">О Практикуме</h4>
-          <div class="footer__column-links">
-            <a class="footer__column-link" href="#" target="blank">Главная</a>
-            <a class="footer__column-link" href="#" target="blank">Концепция</a>
-            <a class="footer__column-link" href="#" target="blank">Наставники</a>
-          </div>
+          <nav>
+            <ul class="footer__column-links">
+              <li>
+                <a class="footer__column-link" href="#" target="blank">Главная</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#" target="blank">Концепция</a>
+              </li>
+              <li>
+                <a class="footer__column-link" href="#" target="blank">Наставники</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-        <div class="footer__columns_content_social">
+        <div class="footer__column footer__columns_content_social">
           <h4 class="footer__column-heading">Соцсети</h4>
           <div class="footer__column-links">
-            <a class="footer__column-link" href="#" target="blank"><img class="footer__social-icon" src="images/facebook_color_white.svg" alt="иконка">Facebook</a>
-            <a class="footer__column-link" href="#" target="blank"><img class="footer__social-icon" src="images/vk_color_white.svg" alt="иконка">ВКонтакте</a>
-            <a class="footer__column-link" href="#" target="blank"><img class="footer__social-icon" src="images/instagram_color_white.svg" alt="иконка">Instagram</a>
+            <a class="footer__column-link" href="#" target="blank">
+              <img class="footer__social-icon" src="images/facebook_color_white.svg" alt="иконка">Facebook
+            </a>
+            <a class="footer__column-link" href="#" target="blank">
+              <img class="footer__social-icon" src="images/vk_color_white.svg" alt="иконка">ВКонтакте
+            </a>
+            <a class="footer__column-link" href="#" target="blank">
+              <img class="footer__social-icon" src="images/instagram_color_white.svg" alt="иконка">Instagram
+            </a>
           </div>
         </div>
       </div>
