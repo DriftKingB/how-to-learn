@@ -9,3 +9,5 @@
 * YouTube-айфреймы.
 
 Работа проверена на кроссбраузерность в: Google Chrome, Mozila Firefox, Microsoft Edge, а также Yandex Browser.
+
+Проект на Github Pages: https://driftkingb.github.io/how-to-learn/
